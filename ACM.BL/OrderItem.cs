@@ -24,6 +24,10 @@ namespace ACM.BL
         {
             var isValid = true;
 
+            if (Quantity <= 0) isValid = false;
+            if (ProductId <= 0) isValid = false;
+            if (PurchasePrice == null) isValid = false;
+
             return isValid;
         }
 
