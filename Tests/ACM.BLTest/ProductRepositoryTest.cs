@@ -14,7 +14,7 @@ namespace ACM.BLTest
             var productRepository = new ProductRepository();
             var expected = new Product(1)
             {
-                CurrentPrice = (decimal)9.99,
+                CurrentPrice = 15.99M,
                 ProductName = "Garden Hose",
                 ProductDescription = "A plastic hose perfect for the outdoor patio or lawn."
             };

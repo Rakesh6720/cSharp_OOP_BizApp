@@ -12,12 +12,19 @@ namespace ACM.BL
 
             if(productId == 1)
             {
-                product.CurrentPrice = (decimal)9.99;
+                product.CurrentPrice = 15.99M;
                 product.ProductName = "Garden Hose";
                 product.ProductDescription = "A plastic hose perfect for the outdoor patio or lawn.";
             }
 
             return product;
+        }
+
+        public bool Save(Product product)
+        {
+            // Code that saves the passed in product
+
+            return true;
         }
     }
 }

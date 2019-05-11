@@ -28,22 +28,5 @@ namespace ACM.BL
 
             return isValid;
         }
-
-        public Product Retrieve(int productId)
-        {
-
-            return new Product();
-        }
-
-        public List<Product> Retrieve()
-        {
-            return new List<Product>();
-        }
-
-        public bool Save()
-        {
-            return true;
-        }
-
     }
 }
